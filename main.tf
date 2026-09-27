@@ -46,7 +46,7 @@ resource "aws_instance" "app_server" {
   subnet_id     = data.aws_subnet.app_a.id
   disable_api_termination = true
    associate_public_ip_address = false
- key_name   = "tf-manju"  # Attach SG
+ key_name   = "tf-ashwini"  # Attach SG
   vpc_security_group_ids = [aws_security_group.app_sg.id]
 
   # Root volume (20 GB gp2)

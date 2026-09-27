@@ -4,7 +4,7 @@ locals {
   comman_tags = {
     Project     = "Enterprise"
     Environment = "Development"
-    Owner       = "Manjunath"
+    Owner       = "Ashwini"
     Team        = "Cloud"
     Managedby   = "Terraform"
     Location    = "NA"
